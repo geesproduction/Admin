@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:fillViewport="true" style="{2:2130968651}">
+	<android.support.v7.widget.ButtonBarLayout http://schemas.android.com/apk/res/android:gravity="0x50" http://schemas.android.com/apk/res/android:orientation="0" http://schemas.android.com/apk/res/android:paddingLeft="12dp" http://schemas.android.com/apk/res/android:paddingTop="4dp" http://schemas.android.com/apk/res/android:paddingRight="12dp" http://schemas.android.com/apk/res/android:paddingBottom="4dp" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2">
+		<Button http://schemas.android.com/apk/res/android:id="resourceId:0x102001b" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" style="{2:2130968649}" />
+		<android.support.v4.widget.Space http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:visibility="1" http://schemas.android.com/apk/res/android:layout_width="0dp" http://schemas.android.com/apk/res/android:layout_height="0dp" http://schemas.android.com/apk/res/android:layout_weight="{4:1065353216}" />
+		<Button http://schemas.android.com/apk/res/android:id="resourceId:0x102001a" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" style="{2:2130968648}" />
+		<Button http://schemas.android.com/apk/res/android:id="resourceId:0x1020019" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" style="{2:2130968650}" />
+	</android.support.v7.widget.ButtonBarLayout>
+</ScrollView>

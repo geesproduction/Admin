@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+	<item http://schemas.android.com/apk/res/android:state_pressed="true" http://schemas.android.com/apk/res/android:drawable="res/drawable/tombolwhiteon.xml" />
+	<item http://schemas.android.com/apk/res/android:state_focused="true" http://schemas.android.com/apk/res/android:drawable="res/drawable/tombolwhiteon.xml" />
+	<item http://schemas.android.com/apk/res/android:drawable="res/drawable/tombolwhiteoff.xml" />
+</selector>

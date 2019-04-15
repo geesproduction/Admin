@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+	<item http://schemas.android.com/apk/res/android:state_pressed="true">
+		<shape http://schemas.android.com/apk/res/android:shape="0">
+			<solid http://schemas.android.com/apk/res/android:color="ff00" />
+		</shape>
+	</item>
+	<item>
+		<shape http://schemas.android.com/apk/res/android:shape="0">
+			<solid http://schemas.android.com/apk/res/android:color="ffffff" />
+		</shape>
+	</item>
+</selector>

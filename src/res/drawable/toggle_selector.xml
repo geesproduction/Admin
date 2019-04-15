@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+	<item http://schemas.android.com/apk/res/android:state_checked="true" http://schemas.android.com/apk/res/android:drawable="res/drawable-xxxhdpi-v4/ic_toggle_on.png" />
+	<item http://schemas.android.com/apk/res/android:state_checked="false" http://schemas.android.com/apk/res/android:drawable="res/drawable-xxxhdpi-v4/ic_toggle_off.png" />
+</selector>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="85" android:versionName="3.2.57" package="com.mmdfauzan.bamos">
+	<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="26" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-feature android:glEsVersion="0x20000" android:required="true" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<uses-permission android:name="com.android.vending.BILLING" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<permission android:name="com.mmdfauzan.bamos.permission.C2D_MESSAGE" android:protectionLevel="0x2" />
+	<uses-permission android:name="com.mmdfauzan.bamos.permission.C2D_MESSAGE" />
+	<application android:theme="resourceId:0x7f0f0009" android:label="Bikin Aplikasi Online Shop" android:icon="res/mipmap-xxxhdpi-v4/ic_launcher.png" android:allowBackup="true" android:supportsRtl="true">
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyANQK3rwDHJagu18RHf3rPKBTbwHa4Wn7Q" />
+		<provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="com.mmdfauzan.bamos.provider" android:grantUriPermissions="true">
+			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="res/xml/provider_paths.xml" />
+		</provider>
+		<activity android:theme="resourceId:0x7f0f000b" android:name="com.mmdfauzan.bamos.MainActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.DaftarActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.BikinFileActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.PetunjukActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.PersyaratanActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.PremiumActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.TentangActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.LinkActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.SplashActivity" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.mmdfauzan.bamos.LoginActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.RegisterActivity" android:screenOrientation="portrait" />
+		<service android:name="com.mmdfauzan.bamos.fcm.BAOSFirebaseMsgService">
+			<intent-filter>
+				<action android:name="com.google.firebase.MESSAGING_EVENT" />
+			</intent-filter>
+		</service>
+		<service android:name="com.mmdfauzan.bamos.fcm.BAOSFirebaseInstanceIdService">
+			<intent-filter>
+				<action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+			</intent-filter>
+		</service>
+		<activity android:name="com.mmdfauzan.bamos.AddProductActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.ProdukActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.KategoriActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.AddCategoryActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.MemberActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.EditMemberActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.PembayaranActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.PengirimanActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.BannerActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.VoucherActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.TokoActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.PemesananDetilActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.KelolaMember" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.FiturPremiumActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.SuccessActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.PemberitahuanActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.FindProductActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.PemesananActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.WebsiteActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.BuatPemberitahuanActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.ChatActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.ChatDetailActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.BannerListActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.VoucherListActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.ChatMemberListActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.EditGambarActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.ViewProdukActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.ViewGambarActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.PetunjukEditActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.StatistikActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.DriverActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.EditDriverActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.LokasiActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.PengirimanLokasiActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.FindMemberActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x4" />
+		<activity android:name="com.mmdfauzan.bamos.FindPesananActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x4" />
+		<activity android:name="com.mmdfauzan.bamos.EVoucherActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.TestimoniActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.DeviceListActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.PrintActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.GambarKategoriActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.MenuActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.AddMenuActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.mmdfauzan.bamos.SelectMenuIconActivity" android:screenOrientation="portrait" />
+		<meta-data android:name="android.support.VERSION" android:value="26.1.0" />
+		<service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="true">
+			<intent-filter android:priority="-500">
+				<action android:name="com.google.firebase.MESSAGING_EVENT" />
+			</intent-filter>
+		</service>
+		<activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.android.billingclient.api.ProxyBillingActivity" android:configChanges="0x5b0" />
+		<activity android:theme="@android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:configChanges="0xfb0" />
+		<activity android:theme="resourceId:0x7f0f013a" android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" />
+		<activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+		<receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false" />
+		<receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true">
+			<intent-filter>
+				<action android:name="com.android.vending.INSTALL_REFERRER" />
+			</intent-filter>
+		</receiver>
+		<service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false" />
+		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+				<category android:name="com.mmdfauzan.bamos" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false" />
+		<service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+			<intent-filter android:priority="-500">
+				<action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+			</intent-filter>
+		</service>
+		<provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.mmdfauzan.bamos.firebaseinitprovider" android:initOrder="100" />
+		<meta-data android:name="com.google.android.gms.version" android:value="10298000" />
+		<meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT" />
+	</application>
+</manifest>

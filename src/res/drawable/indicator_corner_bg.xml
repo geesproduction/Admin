@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+	<item>
+		<shape http://schemas.android.com/apk/res/android:shape="0">
+			<corners http://schemas.android.com/apk/res/android:radius="12dp" />
+			<solid http://schemas.android.com/apk/res/android:color="33000" />
+		</shape>
+	</item>
+</layer-list>

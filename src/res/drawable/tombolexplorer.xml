@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+	<item http://schemas.android.com/apk/res/android:state_pressed="true" http://schemas.android.com/apk/res/android:drawable="dddddd" />
+	<item http://schemas.android.com/apk/res/android:state_focused="true" http://schemas.android.com/apk/res/android:drawable="dddddd" />
+	<item http://schemas.android.com/apk/res/android:drawable="ffffff" />
+</selector>

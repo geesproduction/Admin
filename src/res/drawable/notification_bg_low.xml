@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector http://schemas.android.com/apk/res/android:exitFadeDuration="resourceId:0x10e0001">
+	<item http://schemas.android.com/apk/res/android:state_pressed="true" http://schemas.android.com/apk/res/android:drawable="res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png" />
+	<item http://schemas.android.com/apk/res/android:state_pressed="false" http://schemas.android.com/apk/res/android:drawable="res/drawable-xhdpi-v4/notification_bg_low_normal.9.png" />
+</selector>

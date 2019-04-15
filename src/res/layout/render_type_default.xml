@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+	<ImageView http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1" />
+	<ProgressBar http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:layout_centerInParent="true" />
+</RelativeLayout>

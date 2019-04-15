@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout http://schemas.android.com/apk/res/android:background="ffffff" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+	<ScrollView http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1" http://schemas.android.com/apk/res/android:layout_alignParentLeft="true" http://schemas.android.com/apk/res/android:layout_alignParentTop="true" http://schemas.android.com/apk/res/android:layout_alignParentStart="true">
+		<LinearLayout http://schemas.android.com/apk/res/android:orientation="1" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+			<LinearLayout http://schemas.android.com/apk/res/android:orientation="1" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+				<com.daimajia.slider.library.SliderLayout http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:background="000" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="235dp" />
+				<LinearLayout http://schemas.android.com/apk/res/android:orientation="1" http://schemas.android.com/apk/res/android:padding="10dp" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+					<TextView http://schemas.android.com/apk/res/android:textAppearance="{2:16842817}" http://schemas.android.com/apk/res/android:textStyle="0x1" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" />
+					<TextView http://schemas.android.com/apk/res/android:textAppearance="{2:16842818}" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" />
+					<TextView http://schemas.android.com/apk/res/android:textAppearance="{2:16842818}" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" />
+					<TextView http://schemas.android.com/apk/res/android:textAppearance="{2:16842818}" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" />
+					<TextView http://schemas.android.com/apk/res/android:textAppearance="{2:16842818}" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" />
+					<WebView http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

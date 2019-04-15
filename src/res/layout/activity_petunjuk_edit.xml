@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout http://schemas.android.com/apk/res/android:background="ffffff" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+	<ScrollView http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1" http://schemas.android.com/apk/res/android:layout_alignParentTop="true" http://schemas.android.com/apk/res/android:layout_centerHorizontal="true">
+		<LinearLayout http://schemas.android.com/apk/res/android:orientation="1" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+			<LinearLayout http://schemas.android.com/apk/res/android:orientation="1" http://schemas.android.com/apk/res/android:padding="10dp" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+				<TextView http://schemas.android.com/apk/res/android:textAppearance="{2:16842816}" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:text="Cara Edit Aplikasi" />
+				<TextView http://schemas.android.com/apk/res/android:textAppearance="{2:16842818}" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:text="MOHON DIBACA TERLEBIH DAHULU
+
+Dengan melakukan edit aplikasi kamu dapat mengubah nama, icon, dan warna aplikasi dan mendapatkan versi terbaru untuk mendapat fitur baru. Melakukan edit aplikasi tidak akan menghapus data toko dan produk yang telah diunggah sebelumnya. Berikut cara melakukan edit aplikasi :" />
+				<TextView http://schemas.android.com/apk/res/android:textAppearance="{2:16842818}" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:layout_marginTop="10dp" http://schemas.android.com/apk/res/android:text="1. Isikan nama aplikasi, gambar icon, dan warna sesuai pilihan kemudian tap EDIT APLIKASI.
+
+2. Setelah pembuatan selesai ikuti prosedur pertama yaitu mencoba aplikasinya apakah sudah dapat diinstal dengan baik, jika belum ulangi kembali dengan mengubah gambar sesuai prosedurnya.
+
+3. Setelah berhasil diinstal selanjutnya ikuti prosedur kedua dengan masuk ke Dapatkan Link. Meskipun sebelumnya telah mendapatkan link tetap harus melakukannya. Tujuan dari menu ini adalah memperbarui link aplikasi dengan versi terbaru dari aplikasi yang baru saja dibuat. Masuk ke DAPATKAN LINK kemudian pilih PERBARUI APK. Jika tidak ada tombol PERBARUI APK silakan ulangi EDIT APLIKASI dan lewati LANGKAH 1 langsung menuju LANGKAH 2.
+
+4. Setelah selesai maka aplikasi versi terbaru sudah siap diunduh dan diinstal. Layaknya aplikasi lainnya, pengguna yang masih menggunakan aplikasi versi lama harus memperbarui dengan menginstal versi terbaru tersebut untuk dapat merasakan perubahannya. " />
+				<Button http://schemas.android.com/apk/res/android:textColor="ffffff" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:background="res/drawable/tombol.xml" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:layout_marginTop="10dp" http://schemas.android.com/apk/res/android:layout_marginBottom="10dp" http://schemas.android.com/apk/res/android:text="SAYA MENGERTI" style="resourceId:0x7f0f0082" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

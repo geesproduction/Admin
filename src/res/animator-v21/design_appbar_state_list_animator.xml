@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+	<item http://schemas.android.com/apk/res/android:state_enabled="true" http://schemas.android.com/apk/res-auto:state_collapsed="false" http://schemas.android.com/apk/res-auto:state_collapsible="true">
+		<objectAnimator http://schemas.android.com/apk/res/android:duration="150" http://schemas.android.com/apk/res/android:valueTo="0dp" http://schemas.android.com/apk/res/android:valueType="0" http://schemas.android.com/apk/res/android:propertyName="elevation" />
+	</item>
+	<item http://schemas.android.com/apk/res/android:state_enabled="true">
+		<objectAnimator http://schemas.android.com/apk/res/android:duration="150" http://schemas.android.com/apk/res/android:valueTo="4dp" http://schemas.android.com/apk/res/android:valueType="0" http://schemas.android.com/apk/res/android:propertyName="elevation" />
+	</item>
+	<item>
+		<objectAnimator http://schemas.android.com/apk/res/android:duration="0" http://schemas.android.com/apk/res/android:valueTo="0" http://schemas.android.com/apk/res/android:valueType="0" http://schemas.android.com/apk/res/android:propertyName="elevation" />
+	</item>
+</selector>

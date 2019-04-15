@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+	<WebView http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1" http://schemas.android.com/apk/res/android:layout_alignParentTop="true" />
+	<ProgressBar http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:visibility="2" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:indeterminate="true" http://schemas.android.com/apk/res/android:layout_alignParentBottom="true" http://schemas.android.com/apk/res/android:layout_centerHorizontal="true" style="{2:16842872}" />
+</RelativeLayout>

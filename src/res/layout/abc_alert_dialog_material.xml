@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AlertDialogLayout http://schemas.android.com/apk/res/android:gravity="0x800033" http://schemas.android.com/apk/res/android:orientation="1" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2">
+	<include layout="res/layout/abc_alert_dialog_title_material.xml" />
+	<FrameLayout http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:minHeight="48dp">
+		<View http://schemas.android.com/apk/res/android:layout_gravity="0x30" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:background="{2:2130968690}" http://schemas.android.com/apk/res/android:visibility="2" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="1dp" />
+		<android.support.v4.widget.NestedScrollView http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:clipToPadding="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2">
+			<LinearLayout http://schemas.android.com/apk/res/android:orientation="1" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2">
+				<android.support.v4.widget.Space http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:visibility="2" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="18dp" />
+				<TextView http://schemas.android.com/apk/res/android:id="resourceId:0x102000b" http://schemas.android.com/apk/res/android:paddingLeft="{2:2130968719}" http://schemas.android.com/apk/res/android:paddingRight="{2:2130968719}" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2" style="resourceId:0x7f0f00f3" />
+				<android.support.v4.widget.Space http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:visibility="2" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="18dp" />
+			</LinearLayout>
+		</android.support.v4.widget.NestedScrollView>
+		<View http://schemas.android.com/apk/res/android:layout_gravity="0x50" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:background="{2:2130968690}" http://schemas.android.com/apk/res/android:visibility="2" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="1dp" />
+	</FrameLayout>
+	<FrameLayout http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:minHeight="48dp">
+		<FrameLayout http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2" />
+	</FrameLayout>
+	<include http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2" layout="res/layout/abc_alert_dialog_button_bar_material.xml" />
+</android.support.v7.widget.AlertDialogLayout>

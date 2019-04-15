@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout http://schemas.android.com/apk/res/android:background="ffffff" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+	<ScrollView http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1" http://schemas.android.com/apk/res/android:layout_centerHorizontal="true" http://schemas.android.com/apk/res/android:layout_centerVertical="true">
+		<LinearLayout http://schemas.android.com/apk/res/android:orientation="1" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+			<LinearLayout http://schemas.android.com/apk/res/android:orientation="1" http://schemas.android.com/apk/res/android:background="ffffff" http://schemas.android.com/apk/res/android:padding="10dp" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1" http://schemas.android.com/apk/res/android:layout_margin="20dp">
+				<TextView http://schemas.android.com/apk/res/android:textAppearance="{2:16842818}" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:text="Bikin Aplikasi : Online Shop adalah aplikasi android untuk pembuatan aplikasi online shop berbasis android. Pembuatan dilakukan secara instan dan mandiri oleh pengguna. Hanya dalam hitungan menit aplikasi sudah dapat digunakan." />
+				<TextView http://schemas.android.com/apk/res/android:textAppearance="{2:16842818}" http://schemas.android.com/apk/res/android:textStyle="0x1" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-2" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res/android:layout_marginTop="20dp" http://schemas.android.com/apk/res/android:text="BIKIN APLIKASI
+Website : bikinaplikasi.com
+Email : info@bikinaplikasi.com
+Facebook: fb.com/bikinaplikasicom
+Twitter : @bikin_aplikasi
+Instagram : @bikin_aplikasi" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

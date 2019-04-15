@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:fitsSystemWindows="true" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+	<android.support.design.widget.CoordinatorLayout http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:fitsSystemWindows="true" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1">
+		<View http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-1" http://schemas.android.com/apk/res/android:soundEffectsEnabled="false" />
+		<FrameLayout http://schemas.android.com/apk/res/android:layout_gravity="0x31" http://schemas.android.com/apk/res/android:id="false" http://schemas.android.com/apk/res/android:layout_width="-1" http://schemas.android.com/apk/res/android:layout_height="-2" http://schemas.android.com/apk/res-auto:layout_behavior="android.support.design.widget.BottomSheetBehavior" style="{2:2130968646}" />
+	</android.support.design.widget.CoordinatorLayout>
+</FrameLayout>

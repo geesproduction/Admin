@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+	<item http://schemas.android.com/apk/res/android:state_focused="false" http://schemas.android.com/apk/res/android:state_selected="false" http://schemas.android.com/apk/res/android:state_pressed="false" http://schemas.android.com/apk/res/android:drawable="res/drawable/rectangle_trans_white.xml" />
+	<item http://schemas.android.com/apk/res/android:state_focused="false" http://schemas.android.com/apk/res/android:state_selected="true" http://schemas.android.com/apk/res/android:state_pressed="false" http://schemas.android.com/apk/res/android:drawable="res/drawable/rectangle_trans_white.xml" />
+	<item http://schemas.android.com/apk/res/android:state_focused="true" http://schemas.android.com/apk/res/android:state_selected="false" http://schemas.android.com/apk/res/android:state_pressed="false" http://schemas.android.com/apk/res/android:drawable="res/drawable/rectangle_trans_white_touch.xml" />
+	<item http://schemas.android.com/apk/res/android:state_focused="true" http://schemas.android.com/apk/res/android:state_selected="true" http://schemas.android.com/apk/res/android:state_pressed="false" http://schemas.android.com/apk/res/android:drawable="res/drawable/rectangle_trans_white_touch.xml" />
+	<item http://schemas.android.com/apk/res/android:state_pressed="true" http://schemas.android.com/apk/res/android:drawable="res/drawable/rectangle_trans_white_touch.xml" />
+</selector>
